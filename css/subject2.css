@@ -8,7 +8,7 @@ div {
   padding: 30px;
   display: inline-block;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 #first {
@@ -29,23 +29,23 @@ div {
 
 #in-first {
   background-color: teal;
-  width: 15px;
-  height: 15px;
+  width: 18px;
+  height: 18px;
   border: 4px solid;
   border-color: white;
 }
 #in-second {
   background-color: teal;
-  width: 250px;
-  height: 15px;
+  width: 230px;
+  height: 18px;
   border: 4px solid;
   border-color: white;
   border-style: dashed;
 }
 #in-third {
   background-color: teal;
-  width: 15px;
-  height: 15px;
+  width: 18px;
+  height: 18px;
   border: 4px solid;
   border-color: white;
 }
