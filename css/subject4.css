@@ -2,7 +2,6 @@ body {
   background-color: #6bbcbe;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 span {
@@ -44,11 +43,11 @@ div {
   0% {
     transform: scaleY(1);
   }
-  50% {
-    transform: scaleY(1.7);
+  30% {
+    transform: scaleY(2);
   }
 
-  100% {
+  70% {
     transform: scaleY(1);
   }
 }
