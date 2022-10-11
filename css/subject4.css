@@ -23,3 +23,16 @@ div {
   height: 70px;
   margin: 5px;
 }
+
+@keyframes circle {
+  from {
+    transform: rotateX("0");
+  }
+  to {
+    transform: rotateX("180");
+  }
+}
+
+.circle-box {
+  animation: circle 1s ease-in-out infinite;
+}
