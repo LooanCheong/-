@@ -2,6 +2,7 @@ body {
   background-color: #6bbcbe;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 span {
@@ -13,28 +14,64 @@ div {
   background-color: white;
 }
 
-.circle {
+.circle-box__circle {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   margin: 20px;
 }
 
-.square {
+.square-box__square {
   width: 20px;
   height: 70px;
   margin: 5px;
 }
 
-@keyframes circle {
+@keyframes circleChange {
   from {
-    transform: rotateX("0");
+    transform: rotateZ("0");
   }
   to {
-    transform: rotateX("180");
+    transform: rotateZ("180deg");
   }
 }
 
 .circle-box {
-  animation: circle 1s ease-in-out infinite;
+  animation: circleChange 1s ease-in-out infinite;
+}
+
+@keyframes squareChange {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.7);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.square-box__square:first-child {
+  animation: squareChange 1s infinite;
+}
+.square-box__square:nth-child(2) {
+  animation: squareChange 1s infinite;
+  animation-delay: 0.1s;
+}
+
+.square-box__square:nth-child(3) {
+  animation: squareChange 1s infinite;
+  animation-delay: 0.2s;
+}
+
+.square-box__square:nth-child(4) {
+  animation: squareChange 1s infinite;
+  animation-delay: 0.3s;
+}
+
+.square-box__square:last-child {
+  animation: squareChange 1s infinite;
+  animation-delay: 0.4s;
 }
