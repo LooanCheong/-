@@ -27,16 +27,16 @@ div {
 }
 
 @keyframes circleChange {
-  from {
-    transform: rotateZ("0");
+  0% {
+    transform: rotateZ(0);
   }
-  to {
-    transform: rotateZ("180deg");
+  100% {
+    transform: rotateZ(180deg);
   }
 }
 
 .circle-box {
-  animation: circleChange 1s ease-in-out infinite;
+  animation: circleChange 1s infinite;
 }
 
 @keyframes squareChange {
