@@ -1,0 +1,25 @@
+body {
+  background-color: #6bbcbe;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  background-color: white;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.square {
+  width: 20px;
+  height: 70px;
+  margin: 5px;
+}
