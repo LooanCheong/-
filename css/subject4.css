@@ -1,5 +1,7 @@
 body {
   background-color: #6bbcbe;
+  display: flex;
+  flex-direction: column;
 }
 
 span {
