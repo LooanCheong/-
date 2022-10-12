@@ -7,20 +7,21 @@ body {
 
 .main-box {
   background-color: white;
-  margin: 0 60px;
   font-weight: 600;
+  position: absolute;
+  left: 30%;
 }
 
 .playlist {
   display: flex;
   align-items: center;
-  padding: 160px;
-
-  justify-content: left;
+  justify-content: ;
+  padding: 150px;
 }
 
 .playlist i {
-  margin-right: 200px;
+  margin-right: 190px;
+  margin-left: -80px;
 }
 
 .playlist__title {
@@ -33,18 +34,22 @@ body {
   align-items: center;
 }
 
-.playing-music img{
+.playing-music img {
   width: 300px;
   height: 300px;
+  border-radius: 10%;
+  padding: 0 20px;
 }
 
 .playing-music__title {
   font-size: 35px;
+  padding-right: 20px;
 }
 
 .playing-music__artist {
   font-size: 20px;
   font-weight: 600;
+  padding-top: 15px;
 }
 
 .button {
@@ -54,14 +59,14 @@ body {
 }
 
 .button__play {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 150px;
   height: 50px;
   border: 1px solid;
   border-radius: 20px;
-  
+  box-shadow: 2px 2px;
 }
 
 .button__heart,
@@ -73,3 +78,5 @@ body {
   height: 50px;
   border: 1px solid;
   border-radius: 50%;
+  box-shadow: 2px 2px;
+}
