@@ -1,0 +1,75 @@
+body {
+  height: 100%;
+  width: 50%;
+  font-family: sans-serif;
+  background-color: #00c6ad;
+}
+
+.main-box {
+  background-color: white;
+  margin: 0 60px;
+  font-weight: 600;
+}
+
+.playlist {
+  display: flex;
+  align-items: center;
+  padding: 160px;
+
+  justify-content: left;
+}
+
+.playlist i {
+  margin-right: 200px;
+}
+
+.playlist__title {
+  font-size: 30px;
+}
+
+.playing-music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playing-music img{
+  width: 300px;
+  height: 300px;
+}
+
+.playing-music__title {
+  font-size: 35px;
+}
+
+.playing-music__artist {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button__play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 150px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 20px;
+  
+}
+
+.button__heart,
+.button__plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 50%;
