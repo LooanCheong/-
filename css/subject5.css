@@ -9,7 +9,7 @@ body {
   background-color: white;
   font-weight: 600;
   position: absolute;
-  left: 30%;
+  left: 33%;
 }
 
 .playlist {
@@ -66,7 +66,7 @@ body {
   height: 50px;
   border: 1px solid;
   border-radius: 20px;
-  box-shadow: 2px 2px;
+  border-width: 1px 2px 4px 2px;
 }
 
 .button__heart,
@@ -78,5 +78,29 @@ body {
   height: 50px;
   border: 1px solid;
   border-radius: 50%;
-  box-shadow: 2px 2px;
+  border-width: 1px 2px 4px 2px;
+}
+
+.music-list {
+  padding: 0 40px;
+}
+
+.music-list__music img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10%;
+  margin-right: 30px;
+}
+
+.music-list__music {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.music-list__artist {
+  margin-top: 10px;
+  opacity: 0.7;
 }
