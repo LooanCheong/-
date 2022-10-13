@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+
+.header {
+  background-color: #ffce33;
+  width: 50%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header__title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.search {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.search__input {
+  width: 45%;
+  height: 5vh;
+  border: white;
+  border-radius: 25px;
+  position: absolute;
+  top: -25px;
+  padding-left: 30px;
+  box-shadow: 1px 1px grey;
+}
+
+.search i {
+  position: absolute;
+  top: -6px;
+  right: 30%;
+  opacity: 0.6;
+}
+
+.bookOfTheDay {
+  margin-top: 70px;
+  padding-right: 18%;
+}
+
+.bookOfTheDay__title {
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.bookOfTheDay__book {
+  display: flex;
+}
+
+.bookOfTheDay__book img {
+  width: 200px;
+  height: 280px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.bookOfTheDay__info p:first-child {
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.bookOfTheDay__info p:nth-child(2) {
+  font-size: 17px;
+  font-weight: 600;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+.bookOfTheDay__star {
+  padding-left: 3px;
+  color: #ffce33;
+  margin-bottom: 30px;
+}
+
+.bookOfTheDay__star i:last-child {
+  color: black;
+  opacity: 0.3;
+}
+
+.bookOfTheDay__btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-left: 5px;
+  margin-bottom: 30px;
+}
+
+.bookOfTheDay__journey,
+.bookOfTheDay__biography {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 13px;
+  background-color: rgb(219, 223, 211);
+  border-radius: 10px;
+}
+
+.bookOfTheDay__buy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+
+.bookOfTheDay__bookmark {
+  background-color: #ffce33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #ffce33;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.bookOfTheDay__buyBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 50px;
+  width: 130px;
+}
