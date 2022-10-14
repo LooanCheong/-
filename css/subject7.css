@@ -98,7 +98,7 @@ body {
 }
 
 .musiclist .musiclist__musicbox:first-child {
-  box-shadow: 0.5px 0.5px;
+  box-shadow: 1px 1px 1px 1px;
   border-radius: 20px;
 }
 
