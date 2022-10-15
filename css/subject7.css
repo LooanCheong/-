@@ -115,7 +115,7 @@ body {
   align-items: center;
   justify-content: space-around;
   margin-bottom: 20px;
-padding-right: 35px;
+  padding-right: 35px;
 }
 
 
@@ -133,7 +133,7 @@ padding-right: 35px;
   height: 70px;
   background-color: black;
   position: absolute;
-  left: 13px;
+  left: 17px;
   top: 15px;
   opacity: 0.6;
   border-radius: 10px;
