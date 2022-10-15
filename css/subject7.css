@@ -108,6 +108,7 @@ body {
   background-color: #eff0bf;
   border-radius: 20px;
   border: 0.5px solid;
+  position: relative;
 }
 
 .musiclist__music {
@@ -123,6 +124,54 @@ body {
   margin-right: 20px;
   margin-top: 15px;
   border-radius: 10px;
+}
+
+.now-playing{
+  display: flex;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  position: absolute;
+  top: 15px;
+  opacity: 0.6;
+  border-radius: 10px;
+}
+
+.square-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 7.5px;
+}
+
+@keyframes squareChange {
+  0% {
+    transform: scaleY(1);
+  }
+  30% {
+    transform: scaleY(1.5);
+  }
+
+  70% {
+    transform: scaleY(1);
+  }
+}
+
+.square-box__square {
+  width: 10px;
+  height: 30px;
+  background-color: white;
+  opacity: 1;
+  margin-left: 5px;
+  animation: squareChange 1s ease-in-out infinite;
+}
+
+.square-box__square:nth-child(2){
+  animation-delay: 0.2s;
+}
+
+.square-box__square:last-child{
+  animation-delay: 0.4s;
 }
 
 .musiclist__music i {
